@@ -131,11 +131,11 @@ langchain-community
 langchain-core
 langchain-experimental
 langchain-google-genai
-langchain-groq==0.1.9
-langchain-huggingface==0.1.2
-langchain-openai==0.2.14
-langchain-text-splitters==0.3.5
-langsmith==0.1.147
+langchain-groq
+langchain-huggingface
+langchain-openai
+langchain-text-splitters
+langsmith
 lap==0.4.0
 linkup-sdk==0.2.2
 litellm==1.57.4
