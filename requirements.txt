@@ -250,7 +250,7 @@ s3transfer
 safehttpx
 safetensors
 schema
-scipy
+# scipy
 scrapegraph_py
 seaborn
 selenium
