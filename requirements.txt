@@ -230,7 +230,7 @@ python-multipart==0.0.20
 python-pptx==1.0.2
 python-stdnum==1.19
 python-utils==3.8.1
-pythreejs==2.4. 2
+pythreejs==2.4.2
 pytube==15.0.0
 pytz==2024.2
 pyvis==0.3.2
