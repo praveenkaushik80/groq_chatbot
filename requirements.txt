@@ -143,8 +143,8 @@ llvmlite==0.41.0
 locket==1.0.0
 Mako==1.3.8
 Markdown==3.4.3
-markdown-it-py==3.0.0
-mdurl==0.1.2
+markdown-it-py
+mdurl
 mem0ai==0.1.47
 Metaphone==0.6
 mkl-fft==1.3.6
@@ -243,7 +243,7 @@ regex==2024.11.6
 reportlab==4.2.5
 requests==2.32.3
 requests-oauthlib==2.0.0
-rich==13.9.4
+rich
 rpds-py==0.22.3
 ruff==0.8.4
 s3transfer==0.10.4
@@ -293,7 +293,7 @@ tsdownsample==0.1.2
 typer==0.15.1
 types-requests==2.32.0.20241016
 typing-inspect==0.9.0
-typing_extensions==4.12.2
+typing_extensions
 tzdata==2023.3
 ultralytics==8.1.47
 uri-template==1.3.0
