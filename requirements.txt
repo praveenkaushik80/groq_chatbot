@@ -282,7 +282,7 @@ tomli==2.2.1
 tomli_w==1.2.0
 tomlkit==0.13.2
 torch==2.2.2
-torchvision==0.17.2=
+torchvision==0.17.2
 tqdm==4.66.5
 trace-updater==0.0.9.1
 traittypes==0.2.1
