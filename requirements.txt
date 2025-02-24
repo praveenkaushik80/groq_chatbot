@@ -207,9 +207,9 @@ py-cpuinfo==9.0.0
 py-openaq==1.1.0
 pyamg==5.0.0
 pyarrow==17.0.0
-pydantic==2.10.4
-pydantic-settings==2.7.1
-pydantic_core==2.27.2
+pydantic
+pydantic-settings
+pydantic_core
 pydeck==0.9.1
 pydot==1.4.2
 pydub==0.25.1
