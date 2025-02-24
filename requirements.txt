@@ -33,15 +33,15 @@ brotlipy==0.7.0
 build==1.2.2.post1
 chardet==5.2.0
 chroma-hnswlib==0.7.6
-//chromadb==0.5.23
+chromadb
 click==8.1.8
 cloudpickle==2.2.1
-//cohere==5.13.11
+cohere
 colorcet==3.0.1
 coloredlogs==15.0.1
 contourpy==1.1.0
-//crewai==0.98.0
-//crewai-tools==0.32.1
+# crewai==0.98.0
+# crewai-tools==0.32.1
 cryptography==43.0.3
 Cython==0.29.36
 dash==2.14.1
