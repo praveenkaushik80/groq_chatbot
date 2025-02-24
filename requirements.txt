@@ -1,4 +1,5 @@
 faiss-cpu
+altair
 groq
 asyncio
 streamlit==1.14
