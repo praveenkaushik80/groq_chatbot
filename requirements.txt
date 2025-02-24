@@ -148,7 +148,7 @@ mdurl
 mem0ai==0.1.47
 Metaphone==0.6
 mkl-fft
-mkl-service==2.4.0
+mkl-service
 ml_dtypes==0.5.0
 mmh3==5.0.1
 monotonic==1.6
