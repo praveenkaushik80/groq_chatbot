@@ -33,7 +33,7 @@ brotlipy==0.7.0
 build==1.2.2.post1
 chardet==5.2.0
 chroma-hnswlib==0.7.6
-chromadb==0.5.23
+//chromadb==0.5.23
 click==8.1.8
 cloudpickle==2.2.1
 cohere==5.13.11
