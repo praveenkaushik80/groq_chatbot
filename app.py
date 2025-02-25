@@ -3,22 +3,40 @@ import asyncio
 from groq import AsyncGroq
 import uuid
 
-async def generate_response(client, messages, model):
-    stream = await client.chat.completions.create(
-        messages=messages,
-        model=model,
-        temperature=0.6,
-        max_tokens=1024,
-        top_p=1,
-        stream=True,
-    )
-
-    response = ""
-    async for chunk in stream:
-        content = chunk.choices[0].delta.content
-        if content:
-            response += content
-            yield content
+try:
+    async def generate_response(client, messages, model):
+        stream = await client.chat.completions.create(
+            messages=messages,
+            model=model,
+            temperature=0.6,
+            max_tokens=8192,
+            top_p=1,
+            stream=True,
+        )
+    
+        response = ""
+        async for chunk in stream:
+            content = chunk.choices[0].delta.content
+            if content:
+                response += content
+                yield content
+except:
+    async def generate_response(client, messages, model):
+        stream = await client.chat.completions.create(
+            messages=messages,
+            model=model,
+            temperature=0.6,
+            max_tokens=1024,
+            top_p=1,
+            stream=True,
+        )
+    
+        response = ""
+        async for chunk in stream:
+            content = chunk.choices[0].delta.content
+            if content:
+                response += content
+                yield content
 
 def get_chat_name(chat):
     for message in chat:
